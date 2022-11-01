@@ -1,0 +1,24 @@
+{
+  "name": "schneider-consult-test",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "parcel ./src/index.html"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AoiHaru1/Schneider-Consult-test.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/AoiHaru1/Schneider-Consult-test/issues"
+  },
+  "homepage": "https://github.com/AoiHaru1/Schneider-Consult-test#readme",
+  "devDependencies": {
+    "@parcel/transformer-sass": "^2.7.0",
+    "parcel": "^2.7.0"
+  }
+}

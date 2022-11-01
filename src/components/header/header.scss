@@ -1,0 +1,19 @@
+@import "./logo.scss";
+@import "./sale.scss";
+@import "./number-list.scss";
+
+.header {
+  background-color: #dcdcdc;
+
+  &__inner {
+    display: flex;
+    flex-direction: column;
+    margin-top: 45px;
+  }
+
+  &__info {
+    display: flex;
+    justify-content: space-between;
+    gap: 1rem;
+  }
+}

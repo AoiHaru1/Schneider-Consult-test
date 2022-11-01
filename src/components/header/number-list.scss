@@ -1,0 +1,14 @@
+.number-list {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  left: 1px;
+
+  &__item {
+    font-weight: $f-extrabold;
+    font-size: 3.1rem;
+    line-height: 4.6rem;
+    color: $text-primary;
+    letter-spacing: 0.08rem;
+  }
+}

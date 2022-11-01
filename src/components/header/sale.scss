@@ -1,0 +1,13 @@
+.sale {
+  display: block;
+  max-width: 216px;
+  position: relative;
+  margin-top: 22px;
+  left: 10px;
+
+  &__info {
+    font-size: 1.6rem;
+    letter-spacing: 0.1rem;
+    color: $text-primary;
+  }
+}
