@@ -1,0 +1,58 @@
+.news {
+  background-color: $text-primary;
+  width: 350px;
+  padding: 10px;
+  color: $white;
+  min-height: 560px;
+  position: relative;
+
+  &__heading {
+    font-family: $PTSans;
+    font-weight: $f-semibold;
+    font-size: 4rem;
+    line-height: 4.6rem;
+    margin-left: 2.4rem;
+    margin-top: 0.2rem;
+    letter-spacing: 0.11rem;
+  }
+
+  &__list {
+    display: flex;
+    flex-direction: column;
+    margin-top: 2.7rem;
+    gap: 2.3rem;
+  }
+
+  &__list-item {
+    display: flex;
+    flex-direction: column;
+    margin-left: 2.4rem;
+  }
+
+  &__date {
+    display: block;
+    font-family: $OpenSansItalic;
+    font-style: italic;
+    font-weight: $f-light;
+    font-size: 1.4rem;
+    letter-spacing: 0.04rem;
+  }
+
+  &__text {
+    font-weight: $f-regular;
+    line-height: 2.2rem;
+    font-size: 1.4rem;
+    margin-top: 0.2rem;
+    letter-spacing: 0.04rem;
+  }
+
+  &__link {
+    line-height: 1.5rem;
+    font-size: 1.4rem;
+    letter-spacing: 0.04rem;
+    border-bottom: 1px solid $white;
+    position: absolute;
+    bottom: 33px;
+    right: 53px;
+  }
+}

@@ -1,0 +1,83 @@
+.about {
+  max-width: 571px;
+  margin-top: 22px;
+
+  &__inner {
+    display: flex;
+    flex-direction: column;
+    gap: 27px;
+  }
+
+  &__company {
+    display: flex;
+    flex-direction: column;
+  }
+
+  &__company-heading {
+    font-weight: $f-regular;
+    font-size: 3.3rem;
+    line-height: 2.2rem;
+  }
+
+  &__company-text {
+    font-size: 1.4rem;
+    line-height: 2.2rem;
+    letter-spacing: 0.04rem;
+    -ms-hyphens: auto;
+    -moz-hyphens: auto;
+    -webkit-hyphens: auto;
+    hyphens: auto;
+  }
+
+  &__company-text:first-of-type {
+    margin-top: 29px;
+  }
+
+  &__company-text:nth-of-type(2) {
+    margin-top: 23px;
+  }
+
+  &__business-heading {
+    font-weight: $f-regular;
+    font-size: 2.4rem;
+    line-height: 2.2rem;
+  }
+
+  &__business {
+    display: flex;
+    flex-direction: column;
+    gap: 35px;
+  }
+
+  &__wrapper {
+    display: flex;
+    gap: 41px;
+  }
+
+  &__business-item {
+    display: flex;
+    flex-direction: column;
+    gap: 22px;
+    max-width: 260px;
+  }
+
+  &__business-item-heading {
+    font-size: 1.4rem;
+    line-height: 2.2rem;
+    -ms-hyphens: auto;
+    -moz-hyphens: auto;
+    -webkit-hyphens: auto;
+    hyphens: auto;
+    letter-spacing: 0.05rem;
+  }
+
+  &__business-text {
+    font-size: 1.4rem;
+    line-height: 2.2rem;
+    -ms-hyphens: auto;
+    -moz-hyphens: auto;
+    -webkit-hyphens: auto;
+    hyphens: auto;
+    letter-spacing: 0.03rem;
+  }
+}

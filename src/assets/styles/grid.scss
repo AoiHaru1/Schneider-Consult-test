@@ -4,12 +4,32 @@
   box-sizing: border-box;
 }
 
+ul,
+li,
+ol {
+  padding: 0;
+  list-style: none;
+  margin: 0;
+}
+
 html {
   font-family: $font-primary;
   font-weight: $f-regular;
   color: $text-primary;
   font-size: 10px;
   scroll-behavior: smooth;
+
+  @media (max-width: 950px) {
+    font-size: 9px;
+  }
+
+  @media (max-width: 850px) {
+    font-size: 8px;
+  }
+
+  @media (max-width: 650px) {
+    font-size: 7px;
+  }
 }
 
 body {

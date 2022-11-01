@@ -1,0 +1,12 @@
+@import "./news.scss";
+@import "./about.scss";
+
+.content {
+  margin-top: 48px;
+  padding-bottom: 195px;
+
+  &__inner {
+    display: flex;
+    gap: 60px;
+  }
+}

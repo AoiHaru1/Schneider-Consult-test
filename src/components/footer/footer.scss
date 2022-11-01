@@ -1,0 +1,58 @@
+.footer {
+  background-color: $gray;
+
+  &__inner {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 220px;
+    color: $white;
+    font-size: 1.4rem;
+    line-height: 2.2rem;
+  }
+
+  &__wrapper {
+    display: flex;
+    gap: 140px;
+    align-items: center;
+    margin-bottom: 15px;
+  }
+
+  &__about {
+    display: flex;
+    flex-direction: column;
+    align-self: flex-start;
+    margin-top: 6px;
+    margin-left: 1px;
+  }
+
+  &__company-info,
+  &__email {
+    letter-spacing: 0.03rem;
+  }
+
+  &__menu-list {
+    display: flex;
+    gap: 3px;
+    margin-top: 5px;
+    flex-direction: column;
+  }
+
+  &__list-item span {
+    line-height: 10px;
+    letter-spacing: 0.03rem;
+    border-bottom: 2px solid $gray10;
+  }
+
+  &__author {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 87px;
+    margin-right: 1px;
+    letter-spacing: 0.03rem;
+  }
+
+  .bb {
+    border-bottom: 2px solid $gray10;
+  }
+}
