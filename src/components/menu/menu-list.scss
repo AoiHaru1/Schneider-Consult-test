@@ -1,0 +1,23 @@
+.menu-list {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 58px;
+  gap: 9px;
+
+  &__item {
+    display: flex;
+    gap: 9px;
+    font-weight: $f-regular;
+    color: $white;
+    font-size: 1.8rem;
+    line-height: 1.8rem;
+    letter-spacing: 0.05rem;
+    margin-bottom: 5px;
+    cursor: pointer;
+  }
+
+  &__item span:first-of-type:hover {
+    border-bottom: 1px solid $white;
+  }
+}
