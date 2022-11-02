@@ -4,17 +4,17 @@
 
 .header {
   background-color: #dcdcdc;
+  height: 200px;
 
   &__inner {
     display: flex;
     flex-direction: column;
     margin-top: 45px;
-    padding-bottom: 51px;
+    padding-bottom: 50px;
   }
 
   &__info {
     display: flex;
-    justify-content: space-between;
-    gap: 1rem;
+    position: relative;
   }
 }

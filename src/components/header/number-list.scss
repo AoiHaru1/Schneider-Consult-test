@@ -1,8 +1,8 @@
 .number-list {
   display: flex;
   flex-direction: column;
-  position: relative;
-  left: 1px;
+  position: absolute;
+  right: -1px;
 
   &__item {
     font-weight: $f-extrabold;

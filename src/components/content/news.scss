@@ -31,7 +31,7 @@
 
   &__date {
     display: block;
-    font-family: $OpenSansItalic;
+    font-family: $f-regular;
     font-style: italic;
     font-weight: $f-light;
     font-size: 1.4rem;
@@ -53,6 +53,6 @@
     border-bottom: 1px solid $white;
     position: absolute;
     bottom: 33px;
-    right: 53px;
+    right: 51px;
   }
 }

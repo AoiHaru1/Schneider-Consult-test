@@ -1,5 +1,5 @@
 .about {
-  max-width: 571px;
+  max-width: 570px;
   margin-top: 22px;
 
   &__inner {
@@ -17,6 +17,9 @@
     font-weight: $f-regular;
     font-size: 3.3rem;
     line-height: 2.2rem;
+    @media (max-width: 600px) {
+      line-height: 2.8rem;
+    }
   }
 
   &__company-text {
@@ -41,6 +44,8 @@
     font-weight: $f-regular;
     font-size: 2.4rem;
     line-height: 2.2rem;
+    position: relative;
+    right: 2px;
   }
 
   &__business {

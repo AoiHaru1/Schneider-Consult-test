@@ -1,9 +1,14 @@
 .sale {
   display: block;
-  max-width: 216px;
-  position: relative;
+  min-width: 216px;
+  position: absolute;
+  left: 41.6%;
+  right: 50%;
   margin-top: 22px;
-  left: 10px;
+
+  @media (max-width: 850px) {
+    top: 70px;
+  }
 
   &__info {
     font-size: 1.6rem;

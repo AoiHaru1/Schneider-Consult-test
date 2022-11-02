@@ -1,5 +1,6 @@
 .footer {
   background-color: $gray;
+  margin-top: auto;
 
   &__inner {
     display: flex;
@@ -13,16 +14,19 @@
 
   &__wrapper {
     display: flex;
-    gap: 140px;
+    gap: 137px;
     align-items: center;
     margin-bottom: 15px;
+    @media (max-width: 630px) {
+      gap: 60px;
+    }
   }
 
   &__about {
     display: flex;
     flex-direction: column;
     align-self: flex-start;
-    margin-top: 6px;
+    margin-top: 10px;
     margin-left: 1px;
   }
 
@@ -33,9 +37,13 @@
 
   &__menu-list {
     display: flex;
-    gap: 3px;
-    margin-top: 5px;
+    gap: 4px;
+    margin-top: 10px;
     flex-direction: column;
+  }
+
+  &__list-item {
+    cursor: pointer;
   }
 
   &__list-item span {
@@ -47,7 +55,7 @@
   &__author {
     display: flex;
     flex-direction: column;
-    margin-bottom: 87px;
+    margin-bottom: 8.7rem;
     margin-right: 1px;
     letter-spacing: 0.03rem;
   }
